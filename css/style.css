@@ -1,4 +1,62 @@
 .b-r{
   border-radius: 100px;
   box-shadow: 2px 4px 10px rgba(0,0,0,0.5);
+  height: 35px;
+  width: 35px;
+  text-align: center;
+  vertical-align:middle;
+  padding-top: 6px;
+}
+
+.push-d{
+  margin-top: 10vw
+}
+input:active{
+  color: #fff;
+}
+html,
+body,
+header,
+.view {
+  height: 100%;
+}
+
+@media (max-width: 740px) {
+  html,
+  body,
+  header,
+  .view {
+    height: 100vh;
+  }
+}
+
+.top-nav-collapse {
+  background-color: #4B515D !important;
+}
+
+.navbar:not(.top-nav-collapse) {
+  background: transparent !important;
+}
+
+@media (max-width: 600px) {
+  .navbar:not(.top-nav-collapse) {
+    background: #4B515D !important;
+  }
+}
+
+h1 {
+  letter-spacing: 8px;
+}
+
+h5 {
+  letter-spacing: 3px;
+}
+
+.hr-light {
+  border-top: 3px solid #fff;
+  width: 80px;
+}
+
+.mdb-color{
+    background-color: #4B515D !important;
 }
