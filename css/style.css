@@ -7,12 +7,36 @@
   vertical-align:middle;
   padding-top: 6px;
 }
+.view{
 
+}
 .push-d{
   margin-top: 10vw
 }
-input:active{
-  color: #fff;
+.card-zoom{
+    -webkit-transition: all 0.2s linear;
+    transition: all 0.2s linear
+}
+.btn{
+  border: 1px solid #4B515D;
+  background-color: #4B515D ;
+  color: white;
+
+}
+.btn:hover{
+  border: 1px solid #2E2E2E;
+  background: #2E2E2E;
+  color: white;
+}
+.card-hover{
+  box-shadow: 2px 4px 15px #C7C7C7;
+}
+.card-hover:hover{
+  box-shadow: 2px 2px 7px #A5A5A5;
+  /* background-color: #eee; */
+}
+.card{
+  margin: 100px auto 50px;
 }
 html,
 body,
