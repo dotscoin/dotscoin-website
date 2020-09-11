@@ -1,86 +1,91 @@
-.b-r{
-  border-radius: 100px;
-  box-shadow: 2px 4px 10px rgba(0,0,0,0.5);
-  height: 35px;
-  width: 35px;
-  text-align: center;
-  vertical-align:middle;
-  padding-top: 6px;
+.b-r {
+    border-radius: 100px;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.5);
+    height: 35px;
+    width: 35px;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 6px;
 }
-.view{
 
+.view {}
+
+.push-d {
+    margin-top: 10vw
 }
-.push-d{
-  margin-top: 10vw
-}
-.card-zoom{
+
+.card-zoom {
     -webkit-transition: all 0.2s linear;
     transition: all 0.2s linear
 }
-.btn{
-  border: 1px solid #4B515D;
-  background-color: #4B515D ;
-  color: white;
 
+.btn {
+    border: 1px solid #4B515D;
+    background-color: #4B515D;
+    color: white;
 }
-.btn:hover{
-  border: 1px solid #2E2E2E;
-  background: #2E2E2E;
-  color: white;
+
+.btn:hover {
+    border: 1px solid #2E2E2E;
+    background: #2E2E2E;
+    color: white;
 }
-.card-hover{
-  box-shadow: 2px 4px 15px #C7C7C7;
+
+.card-hover {
+    box-shadow: 2px 4px 15px #C7C7C7;
 }
-.card-hover:hover{
-  box-shadow: 2px 2px 7px #A5A5A5;
-  /* background-color: #eee; */
+
+.card-hover:hover {
+    box-shadow: 2px 2px 7px #A5A5A5;
+    /* background-color: #eee; */
 }
-.card{
-  margin: 100px auto 50px;
+
+.card {
+    margin: 100px auto 50px;
 }
+
 html,
 body,
 header,
 .view {
-  height: 100%;
+    height: 100%;
 }
 
 @media (max-width: 740px) {
-  html,
-  body,
-  header,
-  .view {
-    height: 100vh;
-  }
+    html,
+    body,
+    header {
+        height: 100vh;
+    }
 }
 
 .top-nav-collapse {
-  background-color: #4B515D !important;
+    background-color: #4B515D !important;
 }
 
 .navbar:not(.top-nav-collapse) {
-  background: transparent !important;
+    background: transparent !important;
 }
 
 @media (max-width: 600px) {
-  .navbar:not(.top-nav-collapse) {
-    background: #4B515D !important;
-  }
+    .navbar:not(.top-nav-collapse) {
+        background: #4B515D !important;
+    }
 }
 
 h1 {
-  letter-spacing: 8px;
+    letter-spacing: 8px;
 }
 
 h5 {
-  letter-spacing: 3px;
+    letter-spacing: 3px;
 }
 
 .hr-light {
-  border-top: 3px solid #fff;
-  width: 80px;
+    border-top: 3px solid #fff;
+    width: 80px;
 }
 
-.mdb-color{
+.mdb-color {
     background-color: #4B515D !important;
 }
