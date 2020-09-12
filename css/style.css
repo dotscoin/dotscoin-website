@@ -148,6 +148,11 @@ header,
   .navbar:not(.top-nav-collapse) {
     background: #4B515D !important;
   }
+
+  .push-d {
+      margin-top: 30vh;
+  }
+
 }
 
 h1 {
