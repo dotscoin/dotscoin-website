@@ -1,35 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
 
-/* .fl {
-  font-family: 'Fredericka the Great';
-  font-size: 1000%;
-  line-height: 0.65;
-  margin: 0.1em 0.1em 0.2em 0.7em;
-  float: left;
-} */
 .car-i{
   width:80vw;
   text-align: center;
   padding-bottom: 20px;
   margin:50px auto;
 
-  /* display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-content: center; */
 }
-
+.sec{
+  margin:10vw auto;
+}
 .ind{
-  background-color:#4B515D;
-  border-radius:100px;
-  width:70px;
-  margin:20px auto 10px;
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+  background-color:#4B515D !important;
 }
-.ind:hover{
-  box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.3);
-}
-
 .b-r {
   border-radius: 100px;
   box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.5);
@@ -64,6 +47,9 @@
   background: #2E2E2E;
   color: white;
 }
+.rad-t {
+  border-radius: 10px 10px 0 0;
+}
 
 .rad-i {
   border-radius: 10px 0 0 10px;
@@ -79,7 +65,7 @@
 
 .card-hover:hover {
   border: 0;
-  box-shadow: 2px 4px 30px #C7C7C7;
+  box-shadow: 2px 4px 40px #C7C7C7;
 }
 
 .card {
