@@ -53,8 +53,6 @@
   transition: all 0.2s linear
 }
 
-.car-i {}
-
 .btn {
   border: 1px solid #4B515D;
   background-color: #4B515D;
@@ -76,34 +74,78 @@
 }
 
 .card-hover {
-  /* border: 1px solid #A5A5A5; */
   box-shadow: 1px 1px 5px #A5A5A5;
-  /* box-shadow: none; */
 }
 
 .card-hover:hover {
   border: 0;
   box-shadow: 2px 4px 30px #C7C7C7;
-  /* background-color: #eee; */
 }
 
 .card {
   margin: 50px auto;
 }
+.b-r {
+    border-radius: 100px;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.5);
+    height: 35px;
+    width: 35px;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 6px;
+}
 
+
+.push-d {
+    margin-top: 10vw
+}
+
+.card-zoom {
+    -webkit-transition: all 0.2s linear;
+    transition: all 0.2s linear
+}
+
+.btn {
+    border: 1px solid #4B515D;
+    background-color: #4B515D;
+    color: white;
+}
+
+.btn:hover {
+    border: 1px solid #2E2E2E;
+    background: #2E2E2E;
+    color: white;
+}
+
+.card-hover {
+  box-shadow: 1px 1px 5px #A5A5A5;
+}
+
+.card-hover:hover {
+    box-shadow: 2px 4px 25px #C7C7C7;
+    /* background-color: #eee; */
+}
+
+.card {
+    margin: 50px auto;
+}
+
+.page-footer{
+   background-color:#4B515D !important;
+}
 html,
 body,
 header,
-.view {
+.view
+ {
   height: 100%;
 }
 
 @media (max-width: 740px) {
-
   html,
   body,
   header,
-    {
+ {
     height: 100vh;
   }
 }
@@ -133,8 +175,4 @@ h5 {
 .hr-light {
   border-top: 3px solid #fff;
   width: 80px;
-}
-
-.mdb-color {
-  background-color: #4B515D !important;
 }
