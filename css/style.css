@@ -1,11 +1,28 @@
+/* #A1DCE4 */
+
+
 @import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
 
+.video-container {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+video {
+  min-width: 100%;
+  min-height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
 .car-i{
   width:80vw;
   text-align: center;
   padding-bottom: 20px;
   margin:50px auto;
-
 }
 .sec{
   margin:10vw auto;
