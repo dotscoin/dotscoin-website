@@ -4,7 +4,7 @@
 /* @import url('https://db.onlinewebfonts.com/c/5b2384cf9c701d542008dfe9c848d9d6?family=Qanelas'); */
 @import url('https://db.onlinewebfonts.com/c/a53690a73d2d3412397f67599a920166?family=DualW00-300');
 h1,h2,h3,h4,h4,h5,h6 {
-  font-family: 'DualW00-300', sans-serif;
+  font-family: 'DualW00-300', sans-serif !important;
 }
 .video-container {
     height: 100%;
@@ -85,7 +85,7 @@ video {
 
 .card-hover:hover {
   border: 0;
-  box-shadow: 2px 4px 40px #C7C7C7;
+  box-shadow: 2px 4px 60px #C7C7C7;
 }
 
 .card {
