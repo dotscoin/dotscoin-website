@@ -1,8 +1,11 @@
 /* #A1DCE4 */
-
-
-@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
-
+/* @import url('https://db.onlinewebfonts.com/c/d08a067b981040590322dd2495d05893?family=Alcubierre'); */
+/* @import url('https://db.onlinewebfonts.com/c/d9a58a393d946d86051fbd9a0b594d2f?family=Audrey'); */
+/* @import url('https://db.onlinewebfonts.com/c/5b2384cf9c701d542008dfe9c848d9d6?family=Qanelas'); */
+@import url('https://db.onlinewebfonts.com/c/a53690a73d2d3412397f67599a920166?family=DualW00-300');
+h1,h2,h3,h4,h4,h5,h6 {
+  font-family: 'DualW00-300', sans-serif;
+}
 .video-container {
     height: 100%;
     width: 100%;
