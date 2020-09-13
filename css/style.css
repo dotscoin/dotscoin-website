@@ -2,7 +2,7 @@
 /* @import url('https://db.onlinewebfonts.com/c/d08a067b981040590322dd2495d05893?family=Alcubierre'); */
 /* @import url('https://db.onlinewebfonts.com/c/d9a58a393d946d86051fbd9a0b594d2f?family=Audrey'); */
 /* @import url('https://db.onlinewebfonts.com/c/5b2384cf9c701d542008dfe9c848d9d6?family=Qanelas'); */
-@import url('https://db.onlinewebfonts.com/c/a53690a73d2d3412397f67599a920166?family=DualW00-300');
+/* @import url('https://db.onlinewebfonts.com/c/a53690a73d2d3412397f67599a920166?family=DualW00-300'); */
 /* .logo{
   "max-height:70px !important;
 } */
@@ -55,9 +55,9 @@ video {
 }
 
 /* .push-d {
-  /* position: absolute;
+  position: absolute;
   top: 40%;
-  left: 40%; */
+  left: 40%;
 
 margin-top: 0;
   transform: translateY(95%);
