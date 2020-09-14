@@ -1,11 +1,13 @@
-/* #A1DCE4 */
+/* #A9E1E6 */
 /* @import url('https://db.onlinewebfonts.com/c/d08a067b981040590322dd2495d05893?family=Alcubierre'); */
 /* @import url('https://db.onlinewebfonts.com/c/d9a58a393d946d86051fbd9a0b594d2f?family=Audrey'); */
 /* @import url('https://db.onlinewebfonts.com/c/5b2384cf9c701d542008dfe9c848d9d6?family=Qanelas'); */
-/* @import url('https://db.onlinewebfonts.com/c/a53690a73d2d3412397f67599a920166?family=DualW00-300'); */
+@import url('https://db.onlinewebfonts.com/c/a53690a73d2d3412397f67599a920166?family=DualW00-300');
 /* .logo{
   "max-height:70px !important;
 } */
+
+
 
 h1,h2,h3,h4,h4,h5,h6 {
   font-family: 'DualW00-300', sans-serif !important;
@@ -38,7 +40,7 @@ video {
   margin:10vw auto;
 }
 .ind{
-  background-color:#4B515D !important;
+  background-color:#82C9C1 !important;
 }
 .b-r {
   border-radius: 100px;
@@ -68,22 +70,13 @@ margin-top: 0;
   transition: all 0.2s linear
 }
 
-.btn {
-  border: 1px solid #4B515D;
-  background-color: #4B515D;
-  color: white;
-}
-
-.btn:hover {
-  border: 1px solid #2E2E2E;
-  background: #2E2E2E;
-  color: white;
-}
 .rad-t {
   border-radius: 10px 10px 0 0;
+  height:300px;
 }
 
 .rad-i {
+  height:250px;
   border-radius: 10px 0 0 10px;
 }
 
@@ -124,14 +117,14 @@ margin-top: 0;
 }
 
 .btn {
-    border: 1px solid #4B515D;
-    background-color: #4B515D;
+    border: 1px solid #F9525A;
+    background-color: #F9525A;
     color: white;
 }
 
 .btn:hover {
-    border: 1px solid #2E2E2E;
-    background: #2E2E2E;
+    border: 1px solid #594C51;
+    background: #594C51;
     color: white;
 }
 
@@ -149,8 +142,12 @@ margin-top: 0;
 }
 
 .page-footer{
-   background-color:#4B515D !important;
+   background-color:#82C9C1 !important;
 }
+.page-footer a:hover{
+color: #594C51 !important;
+}
+
 html,
 body,
 header,
@@ -169,21 +166,22 @@ header,
 }
 
 .top-nav-collapse {
-  background-color: #4B515D !important;
+  background-color: #82C9C1 !important;
+}
+
+.top-nav-collapse a:hover{
+  color: #594C51 !important;
 }
 
 .navbar:not(.top-nav-collapse) {
-  background: transparent !important;
+  background: #82C9C1 !important;
+}
+
+.navbar:not(.top-nav-collapse)  a:hover{
+  color: #594C51 !important;
 }
 
 @media (max-width: 600px) {
-  .navbar:not(.top-nav-collapse) {
-    background: #4B515D !important;
-  }
-
-  /* .push-d {
-      margin-top: 30vh;
-  } */
   .logo{
     "max-height:30px !important;
   }
