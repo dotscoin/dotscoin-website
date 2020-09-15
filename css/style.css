@@ -1,4 +1,5 @@
-/* #A9E1E6 */
+/* #303778 */
+/* #FFE1EC */
 /* @import url('https://db.onlinewebfonts.com/c/d08a067b981040590322dd2495d05893?family=Alcubierre'); */
 /* @import url('https://db.onlinewebfonts.com/c/d9a58a393d946d86051fbd9a0b594d2f?family=Audrey'); */
 /* @import url('https://db.onlinewebfonts.com/c/5b2384cf9c701d542008dfe9c848d9d6?family=Qanelas'); */
@@ -40,7 +41,7 @@ video {
   margin:10vw auto;
 }
 .ind{
-  background-color:#82C9C1 !important;
+  background-color:#f9d8aa !important;
 }
 .b-r {
   border-radius: 100px;
@@ -117,14 +118,14 @@ margin-top: 0;
 }
 
 .btn {
-    border: 1px solid #F9525A;
-    background-color: #F9525A;
-    color: white;
+    border: 1px solid #FCEDD8;
+    background-color: #FCEDD8;
+    color: #303778;
 }
 
 .btn:hover {
-    border: 1px solid #594C51;
-    background: #594C51;
+    border: 1px solid #303778;
+    background: #303778;
     color: white;
 }
 
@@ -142,10 +143,10 @@ margin-top: 0;
 }
 
 .page-footer{
-   background-color:#82C9C1 !important;
+   background-color:#303778 !important;
 }
 .page-footer a:hover{
-color: #594C51 !important;
+color: #FCEDD8 !important;
 }
 
 html,
@@ -164,21 +165,24 @@ header,
     height: 100vh;
   }
 }
+.navbar{
+  shadow:none;
+}
 
 .top-nav-collapse {
-  background-color: #82C9C1 !important;
+  background-color: #303778 !important;
 }
 
 .top-nav-collapse a:hover{
-  color: #594C51 !important;
+  color: #FCEDD8 !important;
 }
 
 .navbar:not(.top-nav-collapse) {
-  background: #82C9C1 !important;
+  background: #303778 !important;
 }
 
 .navbar:not(.top-nav-collapse)  a:hover{
-  color: #594C51 !important;
+  color: #FCEDD8 !important;
 }
 
 @media (max-width: 600px) {
